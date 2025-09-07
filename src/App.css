@@ -12,8 +12,9 @@ text-align: center;
 }
 
 .travel-container{
-  width: 75%;
+  width: 65%;
   margin: auto;
+  margin-bottom: 15px;
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -42,9 +43,18 @@ h3{
   background-color: rgb(79, 79, 189);
 }
 
-.deal, .all-inclusive, .premium {
-  padding: 8px;
+.deal, .all-inclusive, .premium, .delete-btn {
+  padding: 8px 10px;
   border-radius: 15px;
+}
+
+.buttons{
+  margin-top: 15px;
+  display: flex;
+}
+.delete-btn{
+  background-color: gray;
+  
 }
 
  

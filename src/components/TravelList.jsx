@@ -1,8 +1,14 @@
+import { useState } from "react";
 import data from "../assets/travel-plans.json";
 function TravelList() {
+    let [travels, setTravels] = useState(data);
+    const handleDelete = (id) => {
+       const clone = travels.filter(item => item.id != id)
+       setTravels(clone)
+    }
   return (
     <div>
-      {data.map((item) => {
+      {travels.map((item) => {
         return (
           <div key={item.id} className="travel-container">
             <div className="img-container">
@@ -26,6 +32,11 @@ function TravelList() {
                 {item.allInclusive && (
                   <div className="all-inclusive">All Inclusive</div>
                 )}
+                
+              </div>
+              <div className="buttons">
+              <div className="delete-btn" onClick={() => handleDelete(item.id)}>Delete</div>
+
               </div>
             </div>
           </div>

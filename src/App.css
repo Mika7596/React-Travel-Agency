@@ -1,0 +1,14 @@
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.logo-container{
+  margin: 30px auto;
+  width: fit-content;
+}
+
+h1, h2.subtitle {
+color: navy;
+text-align: center;
+}
+
+ 

@@ -30,4 +30,21 @@ h3{
   color: rgb(43, 40, 40);
 }
 
+.labels{
+  display: flex;
+  justify-content: space-between;
+}
+
+.deal{
+  background-color: rgb(66, 165, 66);
+}
+.all-inclusive, .premium{
+  background-color: rgb(79, 79, 189);
+}
+
+.deal, .all-inclusive, .premium {
+  padding: 8px;
+  border-radius: 15px;
+}
+
  

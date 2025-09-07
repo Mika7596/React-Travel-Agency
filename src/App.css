@@ -6,9 +6,28 @@
   width: fit-content;
 }
 
-h1, h2.subtitle {
+h1, h4.subtitle {
 color: navy;
 text-align: center;
+}
+
+.travel-container{
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+}
+
+.img-container{
+  width: 40%
+}
+.img-container img{
+  max-width: 100%;
+}
+h3{
+  color: rgb(43, 40, 40);
 }
 
  
